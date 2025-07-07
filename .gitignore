@@ -1,0 +1,13 @@
+# Игнорировать всё
+*
+
+# Но НЕ игнорировать .gitignore
+!.gitignore
+
+# Не игнорировать папку test1 и всё внутри неё
+!exam_project/
+!exam_project/**
+
+# Игнорировать базу данных
+db.sqlite3
+products/
